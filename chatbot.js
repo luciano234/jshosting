@@ -2,7 +2,7 @@
     const WEBHOOK_URL = "https://hook.us1.make.com/7obx2jgtkfdp6i36mx78yamsguub13ah"; 
     const CHATBOT_NAME = "Blickbot Assistant";  
     const AVATAR_URL = "https://luciano234.github.io/jshosting/logo_v3_blickbot.jpg";  
-
+ 
     // Create chat bubble
     let chatBubble = document.createElement("div");
     chatBubble.id = "chatbot-bubble";
