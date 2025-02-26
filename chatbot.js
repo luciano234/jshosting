@@ -1,5 +1,5 @@
 (function() {
-    const WEBHOOK_URL = "https://hook.us1.make.com/7obx2jgtkfdp6i36mx78yamsguub13ah"; 
+    const WEBHOOK_URL = "https://still-dust-eca8.luciano351.workers.dev"; 
     const CHATBOT_NAME = "Blickbot Assistant";  
     const AVATAR_URL = "https://luciano234.github.io/jshosting/logo_v3_blickbot.jpg";  
  
