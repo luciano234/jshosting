@@ -1,5 +1,5 @@
 (function () {
-    const OPENAI_API_KEY = "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";  // Replace with your actual OpenAI API key
+    const OPENAI_API_KEY = "sk-svcacct-BoU4gQzu289_7AUDt3sAI5iATeSBJWJtq7FvGsx_-b8NzIJYao-sO0JYRLa-30GsbYFZ-qcY0OmjKT3BlbkFJ-kd7wX6n7dmGeYu-oATCg1ZgEqHSPLPhCGGx7Z2mMXzKrD_Pa0Ny0R33nFHR4z_dJNusi7MMxBTAA";  // Replace with your actual OpenAI API key
     const ASSISTANT_ID = "asst_vtldlsu7v5qpEBKex8kAuYgF";  // Virtual Weiter assistant ID
     const CHATBOT_NAME = "Asistente";
     const AVATAR_URL = "https://luciano234.github.io/jshosting/logo_v3_blickbot.jpg";
