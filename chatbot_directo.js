@@ -1,6 +1,6 @@
 (function () {
     const OPENAI_API_KEY = "";  // Replace with your actual OpenAI API key
-    const ASSISTANT_ID = "asst_vtldlsu7v5qpEBKex8kAuYgF";  // Virtual Weiter assistant ID
+    const ASSISTANT_ID = "";  // Virtual Weiter assistant ID
     const CHATBOT_NAME = "Asistente";
     const AVATAR_URL = "https://luciano234.github.io/jshosting/logo_v3_blickbot.jpg";
 
