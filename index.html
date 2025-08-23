@@ -1,78 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Our Landing Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        header {
-            background: #50b3a2;
-            color: white;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
-        }
-        header h1 {
-            margin: 0;
-            text-align: center;
-        }
-        .main-content {
-            padding: 20px;
-            background: white;
-            margin-top: 20px;
-        }
-        .cta-button {
-            display: block;
-            width: 200px;
-            height: 50px;
-            background: #e8491d;
-            color: white;
-            text-decoration: none;
-            text-align: center;
-            line-height: 50px;
-            margin: 20px auto;
-            border-radius: 5px;
-        }
-    </style>
-
-<script src="https://luciano234.github.io/jshosting/chat_widget.js" defer></script> // cambiar  https://github.com/luciano234/jshosting/blob/main/chat_widget.js
-
+  <meta charset="UTF-8">
+  <title>n8n Chat Widget Example</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Welcome to our web test</h1>
-        </div>
-    </header>
 
-    <div class="container">
-        <section class="main-content">
-            <h2>Power by Blickbot Automation Agency</h2>
-            <p>Inspirar y potenciar nuestro entorno.</p>
-            <a href="#" class="cta-button">Learn More</a>
-        </section>
-    </div>
+  <!-- Your website content goes here -->
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Blickbot Automation Agency All rights reserved.</p>
-        </div>
-    </footer>
+  <!-- Widget Configuration -->
+  <script>
+    window.ChatWidgetConfig = {
+      webhook: {
+        url: 'https://your-n8n-instance.com/webhook/your-workflow-id', // Your n8n webhook URL
+        route: 'general'
+      },
+      branding: {
+        logo: 'https://yourdomain.com/path-to-logo.png',
+        name: 'Your Company Name',
+        welcomeText: 'Hi 👋, how can we help?',
+        responseTimeText: 'We typically respond right away'
+      },
+      style: {
+        primaryColor: '#854fff',
+        secondaryColor: '#6b3fd4',
+        position: 'right',
+        backgroundColor: '#ffffff',
+        fontColor: '#333333'
+      }
+    };
+  </script>
 
-
+  <!-- Chat Widget Script -->
+  <script src="https://cdn.jsdelivr.net/gh/WayneSimpson/n8n-chatbot-template@ba944c3/chat-widget.js"></script>
 
 </body>
 </html>
